@@ -7,7 +7,7 @@ const projects = [
     title: "Utility Bill Management System",
     description:
       "A simple and user-friendly utility bill management system that helps users track, pay, and manage their utility bills efficiently.",
-    image: "https://i.postimg.cc/vmmkXgwS/Capture1.png",
+    image: "https://i.postimg.cc/Qx7qGp38/Capture1.png",
     github:
       "https://github.com/Protap55/utility-bill-client?tab=readme-ov-file",
     demo: "https://my-utility-bill-management-system.netlify.app",
@@ -31,11 +31,10 @@ const projects = [
   {
     title: "My-portfolio (This Project)",
     description:
-      "I’m Protap Dutta, a Frontend Developer crafting modern, high-performance web applications with React, Next.js, and Tailwind CSS. Explore my projects and skills to see how I bring ideas to life with pixel-perfect design and smooth user experiences",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
+      "I’m Protap Dutta, a Frontend Developer crafting modern, high-performance web applications with React, Next.js, and Tailwind CSS. Explore my projects and skills to see how I bring ideas to life with pixel-perfect design and smooth user experiences.",
+    image: "https://i.postimg.cc/QCHK8q74/Capture4.png",
     github: "https://github.com/Protap55/my-portfolio",
-    demo: "https://devconnect.protapdutta.me",
+    demo: "https://my-portfolio-online2025.netlify.app",
   },
 ];
 
@@ -43,9 +42,10 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-20 bg-gradient-to-b from-black via-gray-900 to-black text-white overflow-hidden"
+      className="py-20 bg-gradient-to-b from-black via-gray-900 to-black text-white"
     >
       <div className="max-w-7xl mx-auto px-6">
+        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -60,6 +60,7 @@ const Projects = () => {
           </p>
         </motion.div>
 
+        {/* Projects Grid */}
         <div className="grid md:grid-cols-2 gap-10">
           {projects.map((project, index) => (
             <motion.div
@@ -68,43 +69,46 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: index * 0.15 }}
               viewport={{ once: true }}
-              className="group relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden shadow-2xl hover:shadow-cyan-500/20 transition-all duration-500 hover:-translate-y-3"
+              className="group relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden shadow-2xl hover:shadow-cyan-500/20 transition-all duration-500 hover:-translate-y-3 flex flex-col"
             >
               {/* Image */}
-              <div className="relative overflow-hidden">
+              <div className="relative overflow-hidden h-56">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
               </div>
 
               {/* Content */}
-              <div className="p-8">
-                <h3 className="text-2xl font-bold text-cyan-400 mb-3 group-hover:text-cyan-300 transition-colors">
-                  {project.title}
-                </h3>
-                <p className="text-gray-300 mb-8 leading-relaxed">
-                  {project.description}
-                </p>
+              <div className="p-8 flex flex-col flex-1">
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-cyan-400 mb-3 group-hover:text-cyan-300 transition-colors">
+                    {project.title}
+                  </h3>
+                  <p className="text-gray-300 mb-6 leading-relaxed">
+                    {project.description}
+                  </p>
+                </div>
 
                 {/* Buttons */}
-                <div className="flex gap-4">
+                <div className="flex gap-4 mt-auto">
                   <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-medium hover:shadow-lg hover:shadow-cyan-500/50 transform hover:scale-105 transition-all duration-300"
+                    className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-medium hover:shadow-lg hover:shadow-cyan-500/50 hover:scale-105 transition-all duration-300"
                   >
                     <Github size={20} />
                     <span>Code</span>
                   </a>
+
                   <a
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-6 py-3 border border-cyan-500 text-cyan-400 rounded-full font-medium hover:bg-cyan-500 hover:text-black transform hover:scale-105 transition-all duration-300"
+                    className="flex items-center gap-2 px-6 py-3 border border-cyan-500 text-cyan-400 rounded-full font-medium hover:bg-cyan-500 hover:text-black hover:scale-105 transition-all duration-300"
                   >
                     <ExternalLink size={20} />
                     <span>Live Demo</span>
@@ -112,7 +116,7 @@ const Projects = () => {
                 </div>
               </div>
 
-              {/* Hover Glow Effect */}
+              {/* Glow Effect */}
               <div className="absolute inset-0 -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-purple-600/20 blur-3xl" />
               </div>
