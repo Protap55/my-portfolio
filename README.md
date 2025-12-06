@@ -27,7 +27,7 @@ Here, you can explore my **featured projects**, **technical skills**, **certific
 ## Live Demo
 
 Check out the live portfolio here:  
-[Portfolio Website](my-portfolio-online2025.netlify.app)
+[Portfolio Website](https://my-portfolio-online2025.netlify.app)
 
 ---
 
@@ -62,21 +62,14 @@ Check out the live portfolio here:
 1. **Utility Bill Management System**  
    Full-stack web app for managing utility bills with role-based access, real-time dashboard & secure authentication.
 
-   
-
 2. **Game Hub**  
    Dynamic gaming platform with live data from RAWG API, category filtering, search & fully responsive design.
-
-   
 
 3. **Modern Portfolio (This Site)**  
    Personal portfolio with glassmorphism, advanced animations, scroll effects & fully responsive design.
 
-   
-
 4. **E-Commerce Dashboard**  
    Admin panel with product management, order tracking, analytics & dark mode support.
- 
 
 ---
 
