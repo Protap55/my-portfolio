@@ -1,7 +1,3 @@
-# Protap Dutta | Personal Portfolio 2025
-
-![Portfolio Banner](https://via.placeholder.com/1200x400?text=Protap+Dutta+Portfolio)
-
 ## Overview
 
 Welcome to my personal portfolio! I’m **Protap Dutta**, a passionate Frontend Developer from Bangladesh.  
@@ -31,7 +27,7 @@ Here, you can explore my **featured projects**, **technical skills**, **certific
 ## Live Demo
 
 Check out the live portfolio here:  
-[Portfolio Website](#)
+[Portfolio Website](my-portfolio-online2025.netlify.app)
 
 ---
 
@@ -66,21 +62,21 @@ Check out the live portfolio here:
 1. **Utility Bill Management System**  
    Full-stack web app for managing utility bills with role-based access, real-time dashboard & secure authentication.
 
-   - [Live Demo](https://utility-bill-protap.netlify.app) | [GitHub Client](https://github.com/Protap55/utility-bill-client) | [GitHub Server](https://github.com/Protap55/utility-bill-server)
+   
 
 2. **Game Hub**  
    Dynamic gaming platform with live data from RAWG API, category filtering, search & fully responsive design.
 
-   - [Live Demo](https://game-hub-protap.netlify.app) | [GitHub](https://github.com/Protap55/game-hub)
+   
 
 3. **Modern Portfolio (This Site)**  
    Personal portfolio with glassmorphism, advanced animations, scroll effects & fully responsive design.
 
-   - [GitHub](https://github.com/Protap55/portfolio-2025)
+   
 
 4. **E-Commerce Dashboard**  
    Admin panel with product management, order tracking, analytics & dark mode support.
-   - [Live Demo](#) | [GitHub](#)
+ 
 
 ---
 
