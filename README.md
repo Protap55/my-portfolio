@@ -79,7 +79,7 @@ You can reach me via:
 
 - **Phone:** +8801307016609
 - **Email:** [protapwith.dev@gmail.com](mailto:protapwith.dev@gmail.com)
-- **LinkedIn:** [Your LinkedIn Link]
+- **LinkedIn:** [Your LinkedIn Link](https://www.linkedin.com/in/protapdutta/)
 - **GitHub:** [https://github.com/Protap55](https://github.com/Protap55)
 
 ---
