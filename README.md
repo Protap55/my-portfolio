@@ -1,16 +1,125 @@
-# React + Vite
+# Protap Dutta | Personal Portfolio 2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Banner](https://via.placeholder.com/1200x400?text=Protap+Dutta+Portfolio)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome to my personal portfolio! I’m **Protap Dutta**, a passionate Frontend Developer from Bangladesh.  
+This portfolio showcases my journey in building **responsive, high-performance, and visually stunning web applications** using modern technologies like:
 
-## React Compiler
+- React.js & Next.js
+- Tailwind CSS & Bootstrap
+- Framer Motion & TypeAnimation
+- Node.js, Express.js, MongoDB, Firebase
+- Vercel & Netlify Deployment
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Here, you can explore my **featured projects**, **technical skills**, **certifications**, and the creative solutions I’ve delivered. Every project reflects my focus on **clean code, user-friendly interfaces, and pixel-perfect design**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Responsive & mobile-friendly design
+- Modern UI/UX with glassmorphism & smooth animations
+- Detailed technical skills section with interactive progress bars
+- Project showcase with live demos and GitHub links
+- Certifications & courses section
+- Contact form with email integration
+
+---
+
+## Live Demo
+
+Check out the live portfolio here:  
+[Portfolio Website](#)
+
+---
+
+## Technologies Used
+
+**Frontend:**
+
+- React.js
+- Next.js
+- Tailwind CSS
+- Framer Motion
+- TypeAnimation
+
+**Backend & Database:**
+
+- Node.js
+- Express.js
+- MongoDB
+- Firebase
+
+**Deployment & Tools:**
+
+- Vercel
+- Netlify
+- Git & GitHub
+- Figma
+
+---
+
+## Featured Projects
+
+1. **Utility Bill Management System**  
+   Full-stack web app for managing utility bills with role-based access, real-time dashboard & secure authentication.
+
+   - [Live Demo](https://utility-bill-protap.netlify.app) | [GitHub Client](https://github.com/Protap55/utility-bill-client) | [GitHub Server](https://github.com/Protap55/utility-bill-server)
+
+2. **Game Hub**  
+   Dynamic gaming platform with live data from RAWG API, category filtering, search & fully responsive design.
+
+   - [Live Demo](https://game-hub-protap.netlify.app) | [GitHub](https://github.com/Protap55/game-hub)
+
+3. **Modern Portfolio (This Site)**  
+   Personal portfolio with glassmorphism, advanced animations, scroll effects & fully responsive design.
+
+   - [GitHub](https://github.com/Protap55/portfolio-2025)
+
+4. **E-Commerce Dashboard**  
+   Admin panel with product management, order tracking, analytics & dark mode support.
+   - [Live Demo](#) | [GitHub](#)
+
+---
+
+## Contact
+
+You can reach me via:
+
+- **Phone:** +8801307016609
+- **Email:** [protapwith.dev@gmail.com](mailto:protapwith.dev@gmail.com)
+- **LinkedIn:** [Your LinkedIn Link]
+- **GitHub:** [https://github.com/Protap55](https://github.com/Protap55)
+
+---
+
+## How to Run Locally
+
+1. Clone the repository:
+
+git clone https://github.com/Protap55/portfolio-2025.git
+
+2. Navigate to the project folder:
+
+cd portfolio-2025
+
+3. Install dependencies:
+
+npm install
+
+# or
+
+yarn install
+
+4. Start the development server:
+
+npm run dev
+
+# or
+
+yarn dev
+
+5. Open http://localhost:5173
+   to view the portfolio in your browser.

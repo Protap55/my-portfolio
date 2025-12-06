@@ -29,12 +29,12 @@ const projects = [
     demo: "https://apps-store-online.netlify.app",
   },
   {
-    title: "DevConnect - Developer Network",
+    title: "My-portfolio (This Project)",
     description:
-      "Social platform for developers to share projects, blogs & collaborate.",
+      "I’m Protap Dutta, a Frontend Developer crafting modern, high-performance web applications with React, Next.js, and Tailwind CSS. Explore my projects and skills to see how I bring ideas to life with pixel-perfect design and smooth user experiences",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
-    github: "https://github.com/protapdutta/devconnect",
+    github: "https://github.com/Protap55/my-portfolio",
     demo: "https://devconnect.protapdutta.me",
   },
 ];
